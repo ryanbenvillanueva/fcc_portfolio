@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 100%;
+  color: #444444;
+  line-height: 1.6;
+}
+
+#navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+#navbar ul {
+  text-align: center;
+  background-color: red;
+  padding: 12px;
+}
+
+#navbar ul li {
+  display: inline-block;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  font-size: 100%;
+  color: white;
+  padding: 14px;
+}
+
+#navbar ul li a:hover {
+  color: black;
+  font-weight: 700;
+  background-color: yellow;
+} 
+
+#welcome-section {
+  height: 100vh;
+}
+
+.welcome-section-img-div {
+  padding: 5rem 0 0 0;
+}
+
+#responsive-image {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 5px solid yellow;
+}
+
+.welcome-section-text-div {
+  text-align: center;
+  line-height: 1.6;
+  padding: 2rem 0;
+}
+
+.welcome-section-text-div h1 {
+  padding-bottom: 32px 0;
+}
+
+footer {
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  #navbar ul {
+    text-align: right;
+  }
+
+}
