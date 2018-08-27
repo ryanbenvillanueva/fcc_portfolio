@@ -47,7 +47,7 @@ body {
 }
 
 .welcome-section-img-div {
-  padding: 5rem 0 0 0;
+  padding-top: 6rem;
 }
 
 #responsive-image {
@@ -68,13 +68,116 @@ body {
   padding-bottom: 32px 0;
 }
 
-footer {
+#projects {
+  height: 100vh;
+}
+.projects-section-text-div {
   text-align: center;
+  line-height: 1.6;
+  padding: 2rem 0;
+} 
+
+.projects-section-text-div h1 {
+  padding: 3rem 0;
+}
+
+.project-tile img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+
+#contact {
+  height: 100vh;
+}
+.contact-section-text-div {
+  text-align: center;
+  line-height: 1.6;
+  padding: 2rem 0;
+}
+
+.contact-section-text-div h1 {
+  padding: 3rem 0; 
+}
+
+#github {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+#github a {  
+  font-size: 6rem;
+  color: black;
+}
+
+#github a:hover {
+  color: purple;
+}
+
+#freecodecamp {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+#freecodecamp a {  
+  font-size: 6rem;
+  color: black;
+}
+
+#freecodecamp a:hover {
+  color: darkgreen;
+}
+
+#codepen {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+#codepen a {  
+  font-size: 6rem;
+  color: black;
+}
+
+#codepen a:hover {
+  color: gold;
+}
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: red;
+  text-align: center;
+  font-size: 100%;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: black;
+  font-weight: 700;
+  background-color: yellow;
 }
 
 @media screen and (min-width: 800px) {
   #navbar ul {
     text-align: right;
   }
+
+
+
 
 }
