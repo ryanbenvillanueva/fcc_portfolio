@@ -1,3 +1,4 @@
+/* Main Styles*/
 html {
   box-sizing: border-box;
 }
@@ -9,158 +10,174 @@ html {
 
 body {
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 100%;
-  color: #444444;
-  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: black;
+  line-height: 1.5em;
 }
+/**************************************************/
 
+/*Navbar Styles*/
 #navbar {
   width: 100%;
   position: fixed;
   top: 0;
 }
+
 #navbar ul {
-  text-align: center;
-  background-color: red;
-  padding: 12px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #d11013;
 }
 
 #navbar ul li {
-  display: inline-block;
+  padding: 1em;
 }
 
 #navbar ul li a {
   text-decoration: none;
-  font-size: 100%;
   color: white;
-  padding: 14px;
 }
 
 #navbar ul li a:hover {
   color: black;
   font-weight: 700;
-  background-color: yellow;
+  background-color: #f6ec35;
 } 
+/**************************************************/
 
+/*About Section Styles*/
 #welcome-section {
   height: 100vh;
 }
 
 .welcome-section-img-div {
-  padding-top: 6rem;
+  padding-top: 6em;
 }
 
 #responsive-image {
   display: block;
   max-width: 100%;
-  margin: 0 auto;
+  margin: auto;
   border-radius: 50%;
-  border: 5px solid yellow;
+  border: 10px solid #f6ec35;
 }
 
 .welcome-section-text-div {
   text-align: center;
-  line-height: 1.6;
-  padding: 2rem 0;
+  line-height: 1.5;
+  padding: 3em 0.5em 0 0.5em;
 }
+/**************************************************/
 
-.welcome-section-text-div h1 {
-  padding-bottom: 32px 0;
-}
-
-#projects {
-  height: 100vh;
-}
+/*Work Section Styles*/
 .projects-section-text-div {
   text-align: center;
-  line-height: 1.6;
-  padding: 2rem 0;
+  line-height: 1.5;
+  padding-top: 4em;
 } 
 
-.projects-section-text-div h1 {
-  padding: 3rem 0;
+.projects-container h3 {
+  text-align: center;
+  padding: 1em 0;
+
 }
 
+.project-tile {
+  border: 0.5em solid #d11013;
+  border-radius: 5%;
+  padding: 1em;
+  margin: 1em auto;
+  
+}
 .project-tile img {
   display: block;
   max-width: 100%;
-  margin: 0 auto;
-
+  margin: auto;
+  border: 0.3em solid black; 
+  border-radius: 5%;
 }
 
-#contact {
-  height: 100vh;
+.project-tile p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1em;
+  padding: 1em 0;
 }
+/**************************************************/
+
+/*Contact Section Styles*/
 .contact-section-text-div {
   text-align: center;
-  line-height: 1.6;
-  padding: 2rem 0;
+  line-height: 1.5;
+  padding: 1em 0;
 }
 
-.contact-section-text-div h1 {
-  padding: 3rem 0; 
+.social-icons {
+  padding: 1em 0;
 }
 
 #github {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
   text-align: center;
-  padding-bottom: 4rem;
+  color: #6e5494;
+  padding: 1em 0;
 }
 
 #github a {  
-  font-size: 6rem;
-  color: black;
+  font-size: 5em;
+  color: #6e5494;
 }
-
+ 
 #github a:hover {
-  color: purple;
+  color: #6e5494;
 }
 
 #freecodecamp {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
   text-align: center;
-  padding-bottom: 4rem;
+  color: #006400;
+  padding: 1em 0;
 }
 
 #freecodecamp a {  
-  font-size: 6rem;
-  color: black;
+  font-size: 5em;
+  color: #006400;
 }
 
 #freecodecamp a:hover {
-  color: darkgreen;
+  color: #006400;
 }
 
 #codepen {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
   text-align: center;
-  padding-bottom: 4rem;
+  color: #fcd000;
+  padding: 1em 0;
 }
 
 #codepen a {  
-  font-size: 6rem;
-  color: black;
+  font-size: 5em;
+  color: #fcd000;
 }
 
 #codepen a:hover {
-  color: gold;
-}
-footer {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  background-color: red;
-  text-align: center;
-  font-size: 100%;
-  color: white;
+  color: #fcd000;
 }
 
+footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  background-color: #d11013;
+  text-align: center;
+  color: white;
+}
+/**************************************************/
+
+/*Footer Section Styles*/
+footer {
+  padding: 1em 0;
+}
 footer a {
   text-decoration: none;
   color: white;
@@ -169,12 +186,12 @@ footer a {
 footer a:hover {
   color: black;
   font-weight: 700;
-  background-color: yellow;
+  background-color: #f6ec35;
 }
 
 @media screen and (min-width: 800px) {
   #navbar ul {
-    text-align: right;
+    font-size: 1.5em;
   }
 
 
