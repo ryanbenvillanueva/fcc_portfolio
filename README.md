@@ -1,5 +1,5 @@
 # Personal Portfolio webpage
-URL: https://rbsvillanueva.github.io/portfolio/
+URL: https://ryanbenvillanueva.github.io/fcc_portfolio/
 
 #### Responsive Web Design Project - Build a Personal Portfolio Webpage for freeCodeCamp, 08.30.2018
 
@@ -14,7 +14,7 @@ _Please go to_  https://learn.freecodecamp.org/responsive-web-design/responsive-
 ## Setup
 
 Open your browser of choice and go to
-https://rbsvillanueva.github.io/portfolio/ , or go to
+https://ryanbenvillanueva.github.io/fcc_portfolio/ , or go to
 https://codepen.io/RBSVillanueva/full/mRYbQP/ _to view it in Codepen._
 
 ## Support and contact details
